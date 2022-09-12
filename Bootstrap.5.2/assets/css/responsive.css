@@ -1,0 +1,270 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+    .app-area .owl-nav {
+        position: absolute;
+        top: 41%;
+        right: 10px;
+    }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .logo img {
+        width: 100%;
+      }
+      .main-menu ul li {
+        padding: 16px 7px;
+      }
+      .btn.header-ri-btn {
+        padding: 15px 40px;
+      }
+      .header-right a {
+        margin-right: 10px;
+      }
+      .app-area .owl-nav {
+        right: 24px;
+    }
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-area {
+	    padding: 20px 20px 25px 20px;
+    }
+    .btn.header-ri-btn {
+        padding: 15px 45px;
+    }
+    /* menu active */
+    .hamburger-menu{
+        display: block;
+    }
+      
+    #menu{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100vw;
+        height: 100vh;
+        background-image: -moz-linear-gradient( 0deg, rgb(243,158,49) 0%, rgb(221,64,38) 100%);
+        background-image: -webkit-linear-gradient( 0deg, rgb(243,158,49) 0%, rgb(221,64,38) 100%);
+        background-image: -ms-linear-gradient( 0deg, rgb(243,158,49) 0%, rgb(221,64,38) 100%);
+        z-index: -1;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+        padding-top: 88px;
+        text-align: left;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        padding-left: 15px;
+    }
+    #menu.current{
+        left: 50%;
+    }
+    #menu {
+        text-align: left !important;
+    }
+    #menu li {
+        display: block;
+        padding-right: 0;
+    }
+    #menu li a::before {
+        bottom: 0px;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .working-content {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .app-title {
+        text-align: center;
+      }
+      .app-slider.owl-carousel.owl-loaded.owl-drag img {
+        margin: 0 auto;
+        float: left;
+      }
+      .app-area .owl-nav {
+        right: 30%;
+    }
+      .app-title {
+        margin-bottom: 100px;
+        padding: 0;
+    }
+    .Agencies-title {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .brends-title p {
+        font-size: 17px;
+    }
+    .brends-content {
+        margin-bottom: 50px;
+    }
+    .brends-content::before {
+        bottom: -25px;
+    }
+    .map-title {
+        width: 700px;
+    }
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .header-area {
+        padding: 20px 20px 25px 20px;
+    }
+    .header-right.text-end.d-block.d-md-none {
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center !important;
+        bottom: 50px;
+      }
+    /* menu active */
+    .hamburger-menu{
+        display: block;
+    }
+    #menu{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100vw;
+        height: 100vh;
+        background-image: -moz-linear-gradient( 0deg, rgb(243,158,49) 0%, rgb(221,64,38) 100%);
+        background-image: -webkit-linear-gradient( 0deg, rgb(243,158,49) 0%, rgb(221,64,38) 100%);
+        background-image: -ms-linear-gradient( 0deg, rgb(243,158,49) 0%, rgb(221,64,38) 100%);
+        z-index: -1;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+        padding-top: 88px;
+        text-align: left;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        padding-left: 15px;
+    }
+    #menu.current{
+        left: 50%;
+    }
+    #menu {
+        text-align: left !important;
+    }
+    #menu li {
+        display: block;
+        padding-right: 0;
+    }
+    #menu li a::before {
+        bottom: 0px;
+    }
+    .hero-title h2 {
+        font-size: 40px;
+    }
+    .join-now-title {
+        text-align: center;
+    }
+    .join-now-title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .Why-area.pb-100 {
+        margin-top: 600px;
+        text-align: center;
+    }
+    .bordered {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .working-content {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .app-title {
+        text-align: center;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+    .app-area .owl-nav {
+        position: absolute;
+        top: 41%;
+        right: 25%;
+    }
+    .owl-carousel .owl-item img {
+        float: left;
+        width: 100% !important;
+    }
+    .Agencies-content p {
+        margin-left: 0;
+    }
+    .Agencies-title {
+        text-align: center;
+      }
+      .Agencies-content {
+        text-align: center;
+      }
+      .svg-inline--fa.fa-check {
+        margin-top: -30px;
+    }
+    .Agencies-content {
+        padding-top: 30px;
+    }
+    .app-area.pt-105.pb-110 {
+        padding: 50px 0;
+    }
+    .app-title img {
+        width: 100%;
+    }
+    .brends-content {
+        margin-bottom: 35px;
+    }
+    .brends-content::before {
+        bottom: 0;
+    }
+    .map-title h2 {
+        font-size: 30px;
+    }
+    .Why-area.pb-100 {
+        padding-bottom: 50px;
+    }
+    .working-area.pt-110.pb-120 {
+        padding: 50px 0;
+    }
+    .Agencies-area.background.pt-105.pb-110 {
+        padding: 50px 0;
+    }
+    .banner-area.pt-100.pb-140 {
+        padding: 50px 0;
+    }
+    .brends-area.pt-100.pb-100 {
+        padding: 50px 0;
+    }
+    .footer-area.pt-80.pb-60 {
+        padding: 50px 0;
+    }
+    .svg-inline--fa.fa-angle-right {
+        display: none;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    .banner-title p {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}
